@@ -1,29 +1,37 @@
-### IntelliJ IDEA ###
-out/
-!**/src/main/**/out/
-!**/src/test/**/out/
+# Compiled class file
+*.class
 
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Log files
+*.log
+
+# BlueJ files
+.bluej/
+
+# Eclipse files
+.settings/
+.metadata/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
+# IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
 
-### VS Code ###
-.vscode/
+# NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
 
-### Mac OS ###
+# Ignore specific output directory
+out/
+
+# macOS specific
 .DS_Store
