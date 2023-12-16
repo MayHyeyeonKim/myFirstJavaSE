@@ -37,4 +37,4 @@ out/
 .DS_Store
 
 # IntelliJ IDEA project file
-javaProjects.iml
+*.iml
