@@ -1,0 +1,37 @@
+# Compiled class file
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+.bluej/
+
+# Eclipse files
+.settings/
+.metadata/
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~
+
+# IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# NetBeans files
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+
+# Ignore specific output directory
+out/
+
+# macOS specific
+.DS_Store
