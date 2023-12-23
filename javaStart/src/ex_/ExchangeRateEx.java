@@ -1,4 +1,4 @@
-package ex;
+package ex_;
 
 public class ExchangeRateEx {
     public static void main(String[] args) {
@@ -11,6 +11,7 @@ public class ExchangeRateEx {
         } else {
             int won = dollar * 1300;
             System.out.println("The amount to exchange is: " + won + " KRW");
+            
         }
     }
 }
