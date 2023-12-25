@@ -12,6 +12,8 @@ public class ScannerMultiTable {
         System.out.println(n + "단의 구구단: ");
         for (int i = 1; i <= 9; i++) {
             System.out.println(n + " x " + i + " = " + n * i);
+
+            input.close();
         }
     }
 }

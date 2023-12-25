@@ -21,5 +21,6 @@ public class ScannerWhile1 {
 
             System.out.println("입력한 이름: " + name + ", 나이: " + age);
         }
+        input.close();
     }
 }
