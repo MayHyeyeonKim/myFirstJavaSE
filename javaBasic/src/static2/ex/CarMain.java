@@ -7,6 +7,6 @@ public class CarMain {
         Car car2 = new Car("G80");
         Car car3 = new Car("Model Y");
 
-        Car.showTotalCars(); //구매한 차량 수를 출력하는 static 메서드
+        car1.showTotalCars(); //구매한 차량 수를 출력하는 static 메서드
     }
 }
