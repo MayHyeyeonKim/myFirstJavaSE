@@ -11,7 +11,7 @@ public class DiamondMain {
         b.methodB();
         b.methodCommon();
 
-        Child c = new Child();
+        Child c = new Child(); //Child에 바로 감
         c.methodCommon();
     }
 }

@@ -8,13 +8,13 @@ public class AnimalSoundMain {
         Dog dog = new Dog();
         Cat cat = new Cat();
         Caw caw = new Caw();
+        Caw cawy = new Caw();
 
         System.out.println("동물 소리 테스트 시작");
         dog.sound();
         System.out.println("동물 소리 테스트 종료");
-
         soundCat(cat);
-        soundCaw(caw);
+        soundCaw(cawy);
     }
 
     private static void soundCat(Cat cat) {
